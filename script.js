@@ -11,7 +11,6 @@ buttons.forEach(button => {
       display.value = "";
     } else if (button.id === "equal") {
       try {
-        // Evaluate the expression
         const result = eval(currentInput);
         display.value = result;
         currentInput = result.toString();
